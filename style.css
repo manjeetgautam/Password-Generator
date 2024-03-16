@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(220, 221, 245);
+}
+
+.titlebox{
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+h3{
+    font-size: 30px;
+
+}
+
+.showpass{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pass{
+    width: 400px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid blueviolet;
+    border-top-left-radius: 30px;
+    background-color: lawngreen;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.pass span{
+    margin-left: 20px;
+}
+
+.copy{
+    width: 70px;
+    height: 66px;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom-right-radius: 30px;
+    background-color: blueviolet;
+    border: 3px solid blueviolet;
+
+}
+
+.keyword{
+    width: 300px;
+    height: 50px;
+    border: 3px solid blueviolet;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: rgb(126, 252, 0);
+}
+
+.keyword > input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 10px;
+}
+
+.twobtn{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generate, .keybtn{
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    color: lawngreen;
+}
+
+.generate:hover, .key:hover{
+    background-color: lawngreen;
+    color: blueviolet;
+    transition: ease;
+}
+
